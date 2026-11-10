@@ -7,6 +7,7 @@
 body {
     background-color: #3b141c;
     font-family: sans-serif;
+    border: solid white thick;
 }
 a {
     text-decoration: none;
@@ -16,7 +17,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
 
 
 }
@@ -30,3 +31,49 @@ nav {
 .nav1 {
     font-size: 20px;
 }
+.style {
+    color:#f7941d ;
+    font-family:cursive;
+    font-style: italic;
+    
+}
+.span1 {
+    display: block;
+}
+.span2 {
+    display: block;
+}
+.white {
+    color: aliceblue;
+    font-family: sans-serif;
+}
+h4 {
+    color: rgb(186, 181, 181);
+}
+.pad {
+    padding:30px ;
+    
+
+}
+.first {
+    color: black;
+    background-color: #f7941d;
+    padding: 5px;
+    border-radius:50px ;
+    border-color: #f7941d;
+}
+.second {
+    background-color: #3b141c;
+    color: aliceblue;
+    border-radius: 50px;
+    padding: 5px;
+
+}
+img {
+    width: 400px;
+    max-width: 100%;
+    position: relative;
+    top: 30px;
+    left: 500px;
+}
+
