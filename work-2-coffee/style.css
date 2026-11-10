@@ -1,1 +1,32 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
 
+body {
+    background-color: #3b141c;
+    font-family: sans-serif;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+
+}
+.navbox {
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+.nav1 {
+    font-size: 20px;
+}
