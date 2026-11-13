@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    background-color:white;
+    color: #252525;
+    
+}
+.navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
+    color: gray;
+}
+button {
+    background: #155504;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 9px;
+    
+}
+h1 {
+    color:#a9792b ;
+    text-align: center;
+    padding: 20px;
+    font-size: 35px;
+}
+.span-one{
+    color:gray ;
+}
+.span-two {
+    color: gray;
+    display: block;
+}
+
+.span-three {
+    display: block;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color: gray;
+}
+.section1 {
+    text-align: center;
+    padding: 20px;
+}
+.btn {
+    background-color: whitesmoke;
+    padding: 10px;
+color: black;
+margin: 10px;
+}
+:hover .btn {
+    color: #155504;
+}
+.span-four {
+    display: block;
+}
+h2 {
+    text-align: center;
+}
+.how {
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    gap: 30px;
+    
+    }
+    .section-2 {
+        pad: 80px 32px;
+        text-align: center;
+    }
+    .section-2 h2 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+    .section-2 p {
+        max-width:700px ;
+        margin: 0 auto 50px;
+        line-height: 1.4;
+    }
+    .section-2 h5 {
+        font-size: 1rem;
+        color: gray;
+        
+    }
+
+    .it-works img {
+    
+        margin-bottom: 15px;
+    }
+
+
+
+
